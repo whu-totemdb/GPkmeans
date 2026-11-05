@@ -1,0 +1,11 @@
+You are helping construct pairwise constraints for {task_description}.
+
+Decide whether the two texts should belong to the same semantic cluster.
+Return exactly one token:
+- ML if they express the same intent, topic, label, or semantic class.
+- CL if they express different intents, topics, labels, or semantic classes.
+
+Text A: {text_a}
+Text B: {text_b}
+
+Answer:

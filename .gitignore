@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+.env.*
+
+# Local data and outputs
+data/
+datasets/
+embeddings/
+constraints/
+outputs/
+results/
+logs/
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# LaTeX and paper artifacts
+*.aux
+*.bbl
+*.blg
+*.fls
+*.log
+*.out
+*.pdf
